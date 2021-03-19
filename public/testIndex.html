@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+</head>
+<body>
+
+<script>
+    export default {
+        name: "ForumPost",
+        data() {
+            return {
+                person: {
+                    id: 254,
+                    name: "Mike Showerhammer",
+                    email: "JohnBythewayReferenceMe@gmail.com",
+                },
+                comment: "Four score and seven years ago our forefathers brought fourth a new criminal quokka prison."
+            }
+        }
+    }
+</script>
+
+	<div class="outer-box">
+		<h2>{{name}}</h2>
+		<p>{{email}}</p>
+		<p>{{comment}}</p>
+	</div>
+</body>
+</html>
+
+
+<template>
+	<div class="outer-box">
+		<h2>{{name}}</h2>
+		<p>{{email}}</p>
+		<p>{{comment}}</p>
+	</div>
+</template>
+
+
+
+<style scoped>
+
+</style>
